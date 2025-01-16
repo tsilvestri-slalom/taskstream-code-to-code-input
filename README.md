@@ -20,10 +20,10 @@ artifact_providers:
     root: source/{project_id}
   - name: local-input
     provider: local-file-system
-    root: ../homework/homework-multiple-file/angular/my-app/src
+    root: ../taskstream-code-to-code-input/src
   - name: local-output
     provider: local-file-system
-    root: ../homework/homework-multiple-file/react/my-app/src
+    root: ../taskstream-code-to-code-output/src
   - name: jira-tskstrm
     provider: jira
     api_user: tonys@slalom.com
