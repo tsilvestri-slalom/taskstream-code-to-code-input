@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'your-app-name';
+  title = 'Simple Angular App (Multiple File)';
+  items = ['Item 1', 'Item 2', 'Item 3'];
+  selectedItem: string | null = null;
+
+  selectItem(item: string): void {
+    this.selectedItem = item;
+  }
 }
